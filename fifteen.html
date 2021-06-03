@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<!--
+	CSE 190 M, Homework 7: Fifteen Puzzle
+	You should not modify fifteen.html.  Your JS code should work with an
+	unmodified version of this file.
+	-->
+
+<head>
+    <title>Fifteen Puzzle</title>
+
+    <!-- instructor-provided JavaScript files; do not modify -->
+    <script src="http://ajax.googleapis.com/ajax/libs/prototype/1.7.0.0/prototype.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+    <script src="http://www.cs.washington.edu/education/courses/cse190m/12sp/homework/7/grading.js"
+        type="text/javascript"></script>
+
+    <!-- your files that you will write -->
+    <link href="css/fifteen.css" type="text/css" rel="stylesheet" />
+    <script src="fifteen.js" type="text/javascript"></script>
+</head>
+
+<body>
+    <h1>CSE 190 M Fifteen Puzzle</h1>
+
+    <p>
+        The goal of the fifteen puzzle is to un-jumble its fifteen squares
+        by repeatedly making moves that slide squares into the empty space.
+        How quickly can you solve it?
+    </p>
+
+    <div id="puzzlearea">
+        <!-- the following are the actual fifteen puzzle pieces -->
+        <div class="puzzlepiece" id="div1">1</div>
+        <div class="puzzlepiece" id="div2">2</div>
+        <div class="puzzlepiece" id="div3">3</div>
+        <div class="puzzlepiece" id="div4">4</div>
+        <div class="puzzlepiece" id="div5">5</div>
+        <div class="puzzlepiece" id="div6">6</div>
+        <div class="puzzlepiece" id="div7">7</div>
+        <div class="puzzlepiece" id="div8">8</div>
+        <div class="puzzlepiece" id="div9">9</div>
+        <div class="puzzlepiece" id="div10">10</div>
+        <div class="puzzlepiece" id="div11">11</div>
+        <div class="puzzlepiece" id="div12">12</div>
+        <div class="puzzlepiece" id="div13">13</div>
+        <div class="puzzlepiece" id="div14">14</div>
+        <div class="puzzlepiece" id="div15">15</div>
+    </div>
+
+    <p id="controls">
+        <button id="shufflebutton">Shuffle</button>
+    </p>
+
+    <p>
+        American puzzle author and mathematician Sam Loyd is often falsely
+        credited with creating the puzzle; indeed, Loyd claimed from 1891
+        until his death in 1911 that he invented it.
+        The puzzle was actually created around 1874 by Noyes Palmer Chapman,
+        a postmaster in Canastota, New York.
+    </p>
+
+    <div id="w3c">
+        <a href="https://webster.cs.washington.edu/validate-html.php">
+            <img src="resources/images/w3c-html5.png" alt="Valid HTML" /></a>
+        <a href="https://webster.cs.washington.edu/validate-css.php">
+            <img src="resources/images/w3c-css.png" alt="Valid CSS" /></a>
+    </div>
+</body>
+
+</html>
